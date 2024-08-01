@@ -1,1 +1,1 @@
-# weights_optimization
+Weights Optimiztion for the guarddog-research-testing
