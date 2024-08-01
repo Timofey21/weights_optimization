@@ -50,9 +50,9 @@ def run_guarddog(file):
     stdout, _ = process.communicate()
     
     output_lines = stdout.strip().split('\n')
-    rules_list = output_lines[-3] 
-    confidence = output_lines[-2] 
-    severity = output_lines[-1]
+    rules_list = output_lines[-3] if len(output_lines) > 2 else ""
+    confidence = output_lines[-2] if len(output_lines) > 1 else ""
+    severity = output_lines[-1] if output_lines else ""
 
     rules_list = [rules.strip() for rules in rules_list.split(',')]
 
