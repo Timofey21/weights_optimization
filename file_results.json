@@ -1,0 +1,32 @@
+{
+    "2024-04-17-@mosfe_beam-git-util-v1.0.0.tar.gz": {
+        "confidence": 80,
+        "severity": 70
+    },
+
+    "2024-05-30-flexfone-reseller-v100.0.4.tar.gz": {
+        "confidence": 80,
+        "severity": 60
+    },
+
+    "2024-05-30-hello-1st-anni-v4.4.31.tar.gz": {
+        "confidence": 80,
+        "severity": 65
+    },
+
+    "day-0.0.2.tgz": {
+        "confidence": 10,
+        "severity": 10
+    },
+
+    "passport-0.7.0.tgz": {
+        "confidence": 10,
+        "severity": 10
+    },
+
+    "sentry-0.1.2.tgz": {
+        "confidence": 10,
+        "severity": 10
+    }
+    
+}
